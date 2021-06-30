@@ -7,14 +7,14 @@ var score=0;
 var life=3;
 var restart,restartImg
 function preload() {
-  playerImg=loadImage("Images/player.png")
-  bgImg=loadImage("Images/candyBackground.jpg")
-  candyImg1=loadImage("Images/candy1.png")
-  candyImg2=loadImage("Images/candy2.png")
-  candyImg3=loadImage("Images/candy3.png")
-  vegetableImg1=loadImage("Images/broccoli.png")
-  vegetableImg2=loadImage("Images/carrot.png")
-  restartImg=loadImage("Images/restart.png")
+  playerImg=loadImage("../Images/player.png")
+  bgImg=loadImage("../Images/candyBackground.jpg")
+  candyImg1=loadImage("../Images/candy1.png")
+  candyImg2=loadImage("../Images/candy2.png")
+  candyImg3=loadImage("../Images/candy3.png")
+  vegetableImg1=loadImage("../Images/broccoli.png")
+  vegetableImg2=loadImage("../Images/carrot.png")
+  restartImg=loadImage("../Images/restart.png")
 }
 
 function setup () {
